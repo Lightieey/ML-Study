@@ -9,3 +9,5 @@ kNN(k-최근접 이웃)은 새로운 입력(분류되지 않은 검증 데이터
 예를 들어, 다음 그림에서 물음표 데이터가 분류되는 과정을 생각해보자.
 k=3이라면, 물음표와 가장 가까운 거리의 데이터 3개가 Class B 2개, Class A 1개 이므로 Class B로 분류될 것이다.
 k=7라면, Class A 4개, Class B 3개 이므로 Class A로 분류될 것이다.
+
+![mlImg2](https://user-images.githubusercontent.com/79203421/199263487-837255d7-ce2c-4c28-a838-1371d7c25d4c.png)
