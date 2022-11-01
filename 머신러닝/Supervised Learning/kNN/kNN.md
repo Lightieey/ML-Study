@@ -1,4 +1,4 @@
-### kNN
+## kNN
 
 kNN은 주어진 데이터에 대한 분류를 하고 싶을 때 사용한다. kNN은 직관적이며 사용하기 쉽기 때문에 초보자가 쓰기 좋다. 또한, 훈련 데이터를 충분히 확보할 수 있는 환경에서 사용하면 좋다.
 
@@ -11,3 +11,6 @@ k=3이라면, 물음표와 가장 가까운 거리의 데이터 3개가 Class B 
 k=7라면, Class A 4개, Class B 3개 이므로 Class A로 분류될 것이다.
 
 ![mlImg2](https://user-images.githubusercontent.com/79203421/199263487-837255d7-ce2c-4c28-a838-1371d7c25d4c.png)
+
+## 추가로 읽어보면 좋을 자료
+https://www.datacamp.com/tutorial/k-nearest-neighbor-classification-scikit-learn
