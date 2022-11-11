@@ -22,3 +22,10 @@ model.fit(X_train, y_train)
 y_predict = model.predict(X_test)
 from sklearn.metrics import accuracy_score
 print(accuracy_score(y_test, y_predict))
+
+from sklearn.metrics import confusion_matrix
+print(pd.DataFrame(
+    confusion_matrix(y_test, y_predict),
+    columns=['Predicted Not Survival', 'Predicted Survival'],
+    index=['True Not Survival', 'True Survival']
+))
