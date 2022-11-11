@@ -2,7 +2,7 @@
 
 결정 트리(decision tree)는 데이터를 분류하거나 결과값을 예측하는 분석 방법이다. 결과 모델이 트리 구조이기 때문에 결정 트리라고 한다. 결정 트리는 이상치가 많은 값으로 구성된 데이터셋을 다룰 때 사용하면 좋다. 또한, 결정 과정이 시각적으로 표현되기 때문에 머신 러닝이 어떤 방식으로 의사 결정을 하는지 알고 싶을 때 유용하다. 아래 그림은 결정 과정을 보여준다.
 
-![tree.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1924be01-d9fb-4912-9058-99b1f476afd7/tree.png)
+![tree](https://user-images.githubusercontent.com/79203421/201366880-b3aae42c-e8ba-4698-b290-30cea3a2b994.png)
 
 결정 트리는 데이터를 1차로 분류한 후 각 영역의 순도(homogeneity)는 증가하고, 불순도(impurity)와 불확실성(uncertainty)는 감소하는 방향으로 학습을 진행한다. 순도가 증가하고 불확실성이 감소하는 것을 정보 이론에서는 정보 획득(Information gain)이라고 하며, 순도를 계산하는 방법에는 다음 두 가지를 많이 사용한다.
 
